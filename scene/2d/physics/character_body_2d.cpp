@@ -29,6 +29,7 @@
 /**************************************************************************/
 
 #include "character_body_2d.h"
+#include "character_body_2d.compat.inc"
 
 #ifndef DISABLE_DEPRECATED
 #include "servers/physics_2d/physics_server_2d_extension.h"

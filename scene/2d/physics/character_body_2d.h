@@ -162,6 +162,10 @@ private:
 protected:
 	void _notification(int p_what);
 	static void _bind_methods();
+#ifndef DISABLE_DEPRECATED
+	bool _move_and_slide_bind_compat_84665();
+	static void _bind_compatibility_methods();
+#endif
 	void _validate_property(PropertyInfo &p_property) const;
 };
 
