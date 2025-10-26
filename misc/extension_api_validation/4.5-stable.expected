@@ -69,8 +69,10 @@ Validate extension JSON: Error: Field 'classes/Performance/methods/add_custom_mo
 
 Optional argument added. Compatibility method registered.
 
+
 GH-84665
 --------
 Validate extension JSON: JSON file: Field was added in a way that breaks compatibility 'classes/CharacterBody2D/methods/move_and_slide': arguments
+Validate extension JSON: JSON file: Field was added in a way that breaks compatibility 'classes/CharacterBody3D/methods/move_and_slide': arguments
 
 Optional argument added. Compatibility method registered.
