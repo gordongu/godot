@@ -46,7 +46,7 @@ public:
 		PLATFORM_ON_LEAVE_ADD_UPWARD_VELOCITY,
 		PLATFORM_ON_LEAVE_DO_NOTHING,
 	};
-	bool move_and_slide();
+	bool move_and_slide(double delta = -1);
 	void apply_floor_snap();
 
 	const Vector2 &get_velocity() const;
@@ -162,6 +162,10 @@ private:
 protected:
 	void _notification(int p_what);
 	static void _bind_methods();
+#ifndef DISABLE_DEPRECATED
+	bool _move_and_slide_bind_compat_84665();
+	static void _bind_compatibility_methods();
+#endif
 	void _validate_property(PropertyInfo &p_property) const;
 };
 

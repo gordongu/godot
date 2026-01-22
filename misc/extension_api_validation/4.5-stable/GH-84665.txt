@@ -1,0 +1,6 @@
+GH-84665
+--------
+Validate extension JSON: JSON file: Field was added in a way that breaks compatibility 'classes/CharacterBody2D/methods/move_and_slide': arguments
+Validate extension JSON: JSON file: Field was added in a way that breaks compatibility 'classes/CharacterBody3D/methods/move_and_slide': arguments
+
+Optional argument added. Compatibility method registered.
